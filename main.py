@@ -1,17 +1,17 @@
 def is_on_list(a, b):
-    return null
+    return b in a
 
 
 def get_x(a, b):
-    return null
+    return a[b]
 
 
 def add_x(a, b):
-    return null
+    return a.append(b)
 
 
 def remove_x(a, b):
-    return null
+    return a.remove(b)
 
 
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
